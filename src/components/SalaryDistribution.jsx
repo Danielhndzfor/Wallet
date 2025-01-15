@@ -20,16 +20,13 @@ export default function SalaryDistribution({ data }) {
     const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D']
 
     return (
-        <Card className="w-full max-w-3xl mx-auto">
-            <CardHeader>
-                <CardTitle>Distribución del Sueldo</CardTitle>
-            </CardHeader>
+        <Card className="w-100 max-w-3xl mx-auto">
             <CardContent>
-                <div className="mb-4 text-center">
+                <div className="mb-4 mt-4 text-center">
                     <p className="text-lg">Sueldo semanal: ${weeklyIncome}</p>
                     <p className="text-lg">Semanas acumuladas: {accumulatedWeeks}</p>
                 </div>
-                <div className="w-full h-96 relative">
+                <div className="w-full h-80 relative">
                     <ResponsiveContainer width="100%" height="100%">
                         <PieChart>
                             <Pie

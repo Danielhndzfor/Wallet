@@ -4,7 +4,7 @@ function NavBar() {
     return (
         <nav>
             {/* Menú inferior fijo visible en todas las vistas */}
-            <div className="fixed bottom-0 left-0 right-0 text-white flex justify-around z-50">
+            <div className="fixed bottom-0 left-0 right-0 bg-slate-200 text-white flex justify-around p-4 z-50">
                 <a href="#" className="flex flex-col items-center text-decoration-none">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
