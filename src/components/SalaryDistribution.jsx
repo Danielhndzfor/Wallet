@@ -20,7 +20,7 @@ export default function SalaryDistribution({ data }) {
     const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884D8', '#82CA9D']
 
     return (
-        <Card className="w-100 max-w-3xl mx-auto">
+        <Card className="w-100">
             <CardContent>
                 <div className="mb-4 mt-4 text-center">
                     <p className="text-lg">Sueldo semanal: ${weeklyIncome}</p>

@@ -17,8 +17,8 @@ export default function Home() {
     return (
         <>
             <NavBar />
-            <div className=" bg-gray-50">
-                <main className="container p-4">
+            <div className=" bg-gray-50 m-3">
+                <main className="container">
                     <h1 className="text-3xl font-bold mb-6">Mi Cartera</h1>
                     <SalaryDistribution data={salaryData} />
                 </main>
