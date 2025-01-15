@@ -22,6 +22,7 @@ function Login() {
                     </form>
                 </div>
             </div>
+            <a href="/home">Ir a inicio</a>
         </div>
     )
 }
